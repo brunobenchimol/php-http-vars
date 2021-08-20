@@ -1,0 +1,15 @@
+  
+{
+	"name": "brunobenchimol/php-http-vars",
+	"description": "Just print http servers variables.",
+	"license": "GNU",
+	"authors": [
+		{
+			"name": "Bruno Benchimol",
+			"email": "brunobenchimol@mail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	}	
+}

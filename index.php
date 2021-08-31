@@ -1,7 +1,7 @@
 <?php
 
 echo 'I am running on: <b>' . gethostname() . '</b><br><br>'; 
-echo '<A HREF="phpinfo.php">Check phpinfo()</A> <br><br>';
+echo '<A HREF="phpinfo.php">Click for -> phpinfo()</A> <br><br>';
 echo '---------------- Outputing Server Vars and Headers ----------------';
 echo '<br><br>';
   

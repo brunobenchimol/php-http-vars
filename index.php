@@ -1,6 +1,6 @@
 <?php
 
-echo 'I am running on: <b>' . gethostname() . '</b><br>'; 
+echo 'I am running on: <b>' . gethostname() . '</b><br><br><br>'; 
 
 
 $headers =  getallheaders();

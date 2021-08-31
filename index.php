@@ -1,4 +1,8 @@
 <?php
+
+echo 'I am running on: <b>' . gethostname() . '</b><br>'; 
+
+
 $headers =  getallheaders();
 foreach($headers as $key=>$val){
   echo $key . ': ' . $val . '<br>';

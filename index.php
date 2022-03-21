@@ -1,6 +1,10 @@
 <?php
 
 echo 'I am running on: <b>' . gethostname() . '</b><br><br>'; 
+echo 'Operational System Environment Variables<br>';
+echo 'TZ = ' . getenv("TZ") . '<br>';
+echo 'CUSTOM_VAR = ' . getenv("CUSTOM_VAR") . '<br>';
+echo '<br><br>';
 echo '<A HREF="phpinfo.php">Click for -> phpinfo()</A> <br><br>';
 echo '---------------- Outputing Server Vars and Headers ----------------';
 echo '<br><br>';

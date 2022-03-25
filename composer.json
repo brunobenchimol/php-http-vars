@@ -2,6 +2,8 @@
 {
 	"name": "brunobenchimol/php-http-vars",
 	"description": "Just print http servers variables.",
+	"type": "project",
+	"version": "0.0.2",
 	"license": "GNU",
 	"authors": [
 		{

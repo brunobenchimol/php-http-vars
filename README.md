@@ -20,7 +20,8 @@ Enviroment Variables
 --------------
 The following table shows variables used:   
 
-|    Variable      |     Description     |
-| ---------------- | ------------------- |
-| `TZ`      |  Sets timezone on pod/container | 
-| `CUSTOM_VAR`              |  Sample variable, just to show its reading properly. Does not do anything.  |
+|    Variable    |     Description    |
+| -------------- | ------------------ |
+| `TZ`           |  Sets timezone on pod/container | 
+| `CUSTOM_VAR`   |  Sample variable, just to show its reading properly. Does not do anything.  |
+| `SECRET_VAR`   |  Sample variable, just to show its reading properly. Does not do anything.  |

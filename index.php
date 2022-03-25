@@ -4,7 +4,7 @@ echo 'I am running on: <b>' . gethostname() . '</b><br><br>';
 
 $content = file_get_contents('composer.json');
 $content = json_decode($content,true);
-echo 'Build Version: <b>' . $content['version']; . '</b><br><br>';
+echo 'Build Version: <b>' . $content['version'] . '</b><br><br>';
 
 echo 'Operational System Environment Variables<br>';
 echo 'TZ = ' . getenv("TZ") . '<br>';
